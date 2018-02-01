@@ -7,6 +7,7 @@ header {
   font-weight: bold;
   padding-bottom: 10px;
   border-bottom: thin solid black;
+  border: thin solid black;
 }
 
 .navmenu {
@@ -14,6 +15,7 @@ header {
   width: 80%;
   padding-left: 60%;
   display: flex;
+  border: thin solid black;
 }
 
 .navmenu span{
@@ -36,6 +38,7 @@ header {
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  border: thin solid black;
 }
 
 /*Main content rules*/
@@ -43,45 +46,115 @@ header {
 .container{
   display: flex;
   border: thin solid black;
+  justify-content: space-around;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 
 }
 
 .columnlarge {
   display:flex;
-  flex-direction:column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
   border: thin solid black;
   width: 630px;
+  margin: 20px;
 }
 .columnmedium {
   display:flex;
   flex-direction:column;
   border: thin solid black;
   width: 300px;
+  margin: 20px;
+
 }
 .columnsmall {
   display:flex;
   flex-direction:column;
   border: thin solid black;
   width: 240px;
+  margin: 20px;
 }
 
 .story1 {
   display: flex;
   border: thin solid black;
+  background-image: URL(../images/img-story-main.png);
+  height: 300px;
+  width: 630px;
+  margin: 10px;
+}
+.story1 img{
+  display: flex;
+}
+
+.story1 p{
+  display:flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
 }
 
 .story2 {
   display: flex;
   border: thin solid black;
+  background-image: URL(../images/img-story-2.png);
+  height: 300px;
+  width: 280px;
+  margin: 15px;
 }
+.story2 img{
+  display: flex;
+  width: 280px;
+  margin: 15px;
+}
+
+.story2 p{
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
 .story3 {
   display: flex;
   border: thin solid black;
+  background-image: URL(../images/img-story-3.png);
+  height: 300px;
+  width: 280px;
+  margin: 15px;
+}
+.story3 img{
+  display: flex;
+  width: 280px;
+  margin: 15px;
+}
+
+.story3 p{
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
 
 .story4 {
   display: flex;
   border: thin solid black;
+  background-image: URL(../images/img-story-1.png);
+  height: 300px;
+  width: 280px;
+  margin: 15px;
+}
+.story4 p{
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
 
 .notice1 {
@@ -92,11 +165,15 @@ header {
   display: flex;
   flex-direction:column;
   border: thin solid black;
+  width: 280px;
+  margin: 15px;
 }
 .notice3 {
   display: flex;
   flex-direction:column;
   border: thin solid black;
+  width: 280px;
+  margin: 15px;
 }
 .notice4 {
   display: flex;

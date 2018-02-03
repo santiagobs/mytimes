@@ -165,7 +165,7 @@ header {
   width: 280px;
   margin: 15px;
 }
-.notice1 .notice4 .notice5 .newsbites {
+.notice1,.notice4,.notice5,.newsbites {
   display: flex;
   flex-direction:column;
   border: thin solid black;

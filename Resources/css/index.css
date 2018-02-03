@@ -67,14 +67,15 @@ header {
   width: 630px;
   margin: 20px;
 }
+
 .columnmedium {
   display:flex;
   flex-direction:column;
   border: thin solid black;
   width: 300px;
   margin: 20px;
-
 }
+
 .columnsmall {
   display:flex;
   flex-direction:column;
@@ -150,7 +151,6 @@ header {
   margin: 15px;
 }
 
-
 .notice2 {
   display: flex;
   flex-direction:column;
@@ -158,6 +158,7 @@ header {
   width: 280px;
   margin: 15px;
 }
+
 .notice3 {
   display: flex;
   flex-direction:column;
@@ -165,13 +166,14 @@ header {
   width: 280px;
   margin: 15px;
 }
+
 .notice1,.notice4,.notice5,.newsbites {
   display: flex;
   flex-direction:column;
   border: thin solid black;
 }
 
-.newsbites h2{
+.newsbites h2 {
   display: flex;
   font-size: 16px;
   justify-content: center;
@@ -213,7 +215,7 @@ footer {
   color: white;
 }
 
-.footmenu a{
+.footmenu a {
   display: flex;
   margin: 0px 15px;
   border: thin solid black;
@@ -225,7 +227,7 @@ footer p {
   display: flex;
   border: thin solid black;
 }
+
 footer div {
   display: flex;
-
 }

@@ -9,19 +9,21 @@ header {
   font-weight: bold;
   padding: 10px 0;
   border-bottom: thin solid black;
-
   background-color: white;
   position: fixed;
   width: 100%;
   height: 55px;
 }
 
+header img {
+padding-left: 60px;
+}
+
 .navmenu {
   position: relative;
   width: 80%;
-  padding-left: 65%;
+  padding-left: 61%;
   display: flex;
-  border: thin solid black;
 }
 
 .navmenu span{
@@ -40,18 +42,16 @@ header {
   display: flex;
   color: MediumAquamarine;
   margin: 10px;
-  width: 20%;
+  width: 30%;
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  border: thin solid black;
 }
 
 /*Main content rules*/
 
 .container{
   display: flex;
-  border: thin solid red;
   justify-content: space-around;
   font-family: Georgia;
   font-size: 17px;
@@ -63,7 +63,6 @@ header {
   display:flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  border: thin solid black;
   width: 630px;
   margin: 20px;
 }
@@ -71,7 +70,6 @@ header {
 .columnmedium {
   display:flex;
   flex-direction:column;
-  border: thin solid black;
   width: 300px;
   margin: 20px;
 }
@@ -79,21 +77,16 @@ header {
 .columnsmall {
   display:flex;
   flex-direction:column;
-  border: thin solid black;
   width: 240px;
   margin: 20px;
 }
 
 .story1 {
   display: flex;
-  border: thin solid black;
   background-image: URL(../images/img-story-main.png);
   height: 300px;
   width: 630px;
   margin: 10px;
-}
-.story1 img{
-  display: flex;
 }
 
 .story1 p{
@@ -107,17 +100,12 @@ header {
 
 .story2 {
   display: flex;
-  border: thin solid black;
   background-image: URL(../images/img-story-2.png);
   height: 300px;
   width: 280px;
   margin: 15px;
 }
-.story2 img{
-  display: flex;
-  width: 280px;
-  margin: 15px;
-}
+
 
 .storytext {
   display: flex;
@@ -130,31 +118,23 @@ header {
 
 .story3 {
   display: flex;
-  border: thin solid black;
   background-image: URL(../images/img-story-3.png);
   height: 300px;
   width: 280px;
   margin: 15px;
 }
-.story3 img{
-  display: flex;
-  width: 280px;
-  margin: 15px;
-}
+
 
 .story4 {
   display: flex;
-  border: thin solid black;
   background-image: URL(../images/img-story-1.png);
   height: 300px;
   width: 280px;
-  margin: 15px;
 }
 
 .notice2 {
   display: flex;
   flex-direction:column;
-  border: thin solid black;
   width: 280px;
   margin: 15px;
 }
@@ -162,7 +142,6 @@ header {
 .notice3 {
   display: flex;
   flex-direction:column;
-  border: thin solid black;
   width: 280px;
   margin: 15px;
 }
@@ -170,7 +149,7 @@ header {
 .notice1,.notice4,.notice5,.newsbites {
   display: flex;
   flex-direction:column;
-  border: thin solid black;
+
 }
 
 .newsbites h2 {
@@ -200,7 +179,6 @@ footer {
   font-family: Verdana;
   font-size: 12px;
   text-align: center;
-  border: thin solid black;
   flex-direction: column;
   height: 300px;
 }
@@ -213,21 +191,22 @@ footer {
   font-size: 16px;
   font-weight: bold;
   color: white;
+
 }
 
 .footmenu a {
   display: flex;
-  margin: 0px 15px;
-  border: thin solid black;
+  margin: 2px 15px;
   color: black;
 
 }
 
 footer p {
   display: flex;
-  border: thin solid black;
+
 }
 
 footer div {
   display: flex;
+
 }
